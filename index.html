@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Charles Koui</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals course homepage for Mandoueuye Charles Romeo Koui. This page includes web development resources and personal information.">
+    <meta name="author" content="Mandoueuye Charles Romeo Koui">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>WDD131 - Charles Koui</h1>
+    <header>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Charles Koui</h1>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-grid">
+
+                <p>
+                    My name is Mandoueuye Charles Romeo Koui. I am an IT Support Analyst based in Abidjan, Côte
+                    d’Ivoire. I have experience in managing and maintaining IT infrastructures, providing technical
+                    support, and solving complex technical problems. I enjoy technology, learning new skills, and
+                    helping organizations improve their IT systems.
+                </p>
+
+                <img class="profile-img" src="images/profile.jpg" alt="My Profile Photo">
+
+                <h3 class="location">Abidjan, Côte d’Ivoire</h3>
+
+                <div class="country">
+
+                    <figure>
+                        <img src="images/civ-flag.jpg" alt="Ivory Coast Flag">
+                        <figcaption>Official Flag of Côte d’Ivoire</figcaption>
+                    </figure>
+
+                    <p>
+                        Côte d’Ivoire is located in West Africa and is known for its rich culture and beautiful coastal
+                        cities. Abidjan is the largest city and serves as the country's economic capital.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🌸 Mandoueuye Charles Romeo Koui 🌸 Côte d’Ivoire
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>

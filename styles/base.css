@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* HEADER */
+header {
+    background: #3c6689;
+    color: white;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+}
+
+#course-title {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* NAV BAR */
+nav {
+    background: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN LAYOUT */
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* CARDS */
+.card {
+    background: #efefef;
+    border-radius: 12px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* CARD HEADER */
+
+.card h2 {
+    background: #2f5c7c;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-size: 1.4rem;
+}
+
+/* ABOUT SECTION */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 22px 24px;
+}
+
+/* paragraph */
+.about-grid>p {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* profile image */
+.profile-img {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* location title */
+.location {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.location::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background: #bbb;
+    margin: 10px auto;
+}
+
+/* country section */
+.country {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    gap: 20px;
+}
+
+.country img {
+    width: 120px;
+    border: 1px solid #ccc;
+}
+
+figure {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* RESOURCES */
+
+ul {
+    padding: 20px 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #3c6689;
+    color: white;
+    text-align: center;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 20px 0;
+}
+
+#lastModified {
+    color: #ffff66;
+    margin-top: 5px;
+}
