@@ -1,0 +1,40 @@
+/* Google Font */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* Header, Main, Footer shared styles */
+
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #d8e6f3;
+    /* bluish background */
+}
+
+/* Main layout */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Section styling */
+
+section {
+    padding: 1rem;
+    background: white;
+}
+
+/* Text alignment */
+
+h1,
+footer {
+    text-align: center;
+}
