@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Hero container */
+.hero {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Responsive image */
+.hero img {
+    width: 100%;
+    height: auto;
+}
